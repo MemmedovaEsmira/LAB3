@@ -20,10 +20,10 @@ height: 60px;
 background-size:cover ;
 background-image: url("images/logo-white.png");
 }
-&right{
+&_right{
     @include d-flex( flex,space-between,center,2rem)
 }
-    &mav_menu{
+    &_nav_menu{
         @include d-flex(flex,space-between,center,1.3rem)    
     }
         &_item{
@@ -59,7 +59,7 @@ background-image: url("images/logo-white.png");
         &_logo_item:nth-child(1){
             display: none;
         }
-    &_right{
+        &_right{
             display: none;
         }
         &_menu_icon{
