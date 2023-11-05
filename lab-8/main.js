@@ -19,32 +19,32 @@
 //     }
 // console.log(calculateLetter("Never give up"))
    
-const cars = [
-    {
-        color: "red",
-        type: "mercedes",
-        capacity: 5,
-        price: 120,
-    },
-    {
-        color: "blue",
-        type: "bmw",
-        capacity: 2,
-        price: 70,
-    },
-    {
-        color: "blue",
-        type: "ford",
-        capacity: 6,
-        price: 220,
-    },
-    {
-        color: "blue",
-        type: "bmw",
-        capacity: 6,
-        price: 400,
-    },
-];
+// const cars = [
+//     {
+//         color: "red",
+//         type: "mercedes",
+//         capacity: 5,
+//         price: 120,
+//     },
+//     {
+//         color: "blue",
+//         type: "bmw",
+//         capacity: 2,
+//         price: 70,
+//     },
+//     {
+//         color: "blue",
+//         type: "ford",
+//         capacity: 6,
+//         price: 220,
+//     },
+//     {
+//         color: "blue",
+//         type: "bmw",
+//         capacity: 6,
+//         price: 400,
+//     },
+// ];
 
 
 // const sizeCars = cars.map((car) =>{
@@ -63,11 +63,11 @@ const cars = [
 
 
 
-  let discountedCars = cars.filter((car)=>car.color=="blue").map((car)=>{
-let discount = car.price - (car.price*30)/100;
-return `new price ${discount} $ car model ${ car.type}`
-  })
-console.log(discountedCars)
+//   const discountedCars = cars.filter((car)=>car.color=="blue").map((car)=>{
+// let discount = car.price - (car.price*30)/100;
+// return `new price ${discount} $ car model ${ car.type}`
+//   })
+// console.log(discountedCars)
 
 
 
