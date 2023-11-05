@@ -24,9 +24,11 @@
 // alert(minute + "minute" + " " + second +"second");
 
 
-let getNumber = parseInt(prompt("Enter number"));
-let factorial = 1;
-for (let i = 1; i<= getNumber; i++) {
-   factorial = factorial *(getNumber-1);   
-}
-alert(factorial);
+// let getNumber = parseInt(prompt("Enter number"));
+// let factorial = 1;
+// for (let i = 1; i<= getNumber; i++) {
+//    factorial = factorial *(getNumber-1);   
+// }
+// alert(factorial);
+
+
