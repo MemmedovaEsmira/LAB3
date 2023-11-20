@@ -49,12 +49,10 @@ const inventors = [
 // Array.every()
 // 5. Did all inventors live at least 45 years ?
 
-// const gitConnectInventors = inventors.every ((item)=>item.year==45)
-
+// const gitConnectInventors = inventors.every ((item)=>(item.passed-item.year)>45)
 //  console.log(gitConnectInventors);
 
 // Array.some()
 // 6. At least one inventor lived for 45 years?
-// const gitConnectInventors = inventors.some ((item)=>item.year>=45)
-
+// const gitConnectInventors = inventors.some ((item)=>(item.passed-item.year)>45)
 //  console.log(gitConnectInventors);
