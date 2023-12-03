@@ -3,7 +3,7 @@ let toDoEntryInput = document.querySelector(".toDo_entry_input");
 let toDoPlanList = document.querySelector(".toDo_plan_list");  
 
 toDoEntryButton.addEventListener("click", () => {
-    let toDoPlanListItem = document.createElement("Li");
+    let toDoPlanListItem = document.createElement("li");
     toDoPlanListItem.innerText = toDoEntryInput.value.trim(); 
     toDoPlanListItem.classList.add("toDoPlanListItem");
 
@@ -21,7 +21,7 @@ toDoEntryButton.addEventListener("click", () => {
         toDoPlanList.appendChild(toDoPlanListWrapper);
     }
     else{
-        alert("please write anything");
+        alert("please fill in the box");
     }
 
     toDoPlanRemoveButton.addEventListener("click", ()=>{
