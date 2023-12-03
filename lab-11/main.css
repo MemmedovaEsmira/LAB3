@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* 
+li{
+list-style: none;
+} */
+
+body{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.toDo_title{
+    color: white;
+}
+
+.toDo{
+    width: 350px;
+    height: 350px;
+    border: 1px solid rgb(87, 87, 214);
+    margin-top: 50px;
+    
+}
+
+.toDo_entry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.toDo_entry_input{
+    width: 280px;
+    height: 30px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+.toDo_entry_button{
+    color: rgb(99, 99, 208);
+}
+
+
