@@ -24,18 +24,3 @@ function resultData(result) {
     let cardDesc = document.querySelector(".card_desc");
     cardDesc.innerText = `${result.wather[0].description}`;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
